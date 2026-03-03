@@ -52,7 +52,7 @@ if input_df is not None:
         class_names = ctrl.get_categories() 
 
         real_letter = class_names[int(Y)]
-        pred_letter = class_names[int(y_pred[0])]
+        pred_letter = class_names[int(Y_pred[0])]
 
 
         col1, col2 = st.columns([1, 2])  
